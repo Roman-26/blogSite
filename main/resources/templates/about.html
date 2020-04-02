@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<header th:insert="bloks/header :: header"></header>
+
+<div class="container mt-5">
+    <h2 th:text="${name}"></h2>
+</div>
+
+<div th:insert="bloks/footer :: footer"></div>
+</body>
+</html>
